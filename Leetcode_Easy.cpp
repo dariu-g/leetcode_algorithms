@@ -5,11 +5,11 @@
 #include <string>
 #include <vector>
 
-struct ListNode {
+struct ListNode 
+{
     std::int32_t val;
     ListNode* next;
     ListNode(std::int32_t x) : val(x), next(NULL) {}
-    
 };
 
 class Solution
